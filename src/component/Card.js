@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Accordion from "react-bootstrap/Accordion";
-import Card from "react-bootstrap/card";
-import Button from "react-bootstrap/Button";
+import {Accordion, Card, Button} from "react-bootstrap";
 import axios from "axios";
 
 const Cards = () => {
