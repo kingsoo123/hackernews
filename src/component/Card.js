@@ -36,13 +36,13 @@ console.log("::::::::::::::::::HITS", hits);
           </Card.Header>
           <Accordion.Collapse eventKey="0">
             <Card.Body>
-              Author: {data.author}
+              <small style={{background:'yellow', padding: 3, borderRadius: 30}}>Author</small>: {data.author}
               <br />
-              Url: {data.url}
+              <small style={{background:'yellow', padding: 3, borderRadius: 30}}>Url</small>: {data.url}
               <br />
-              Number of comments: {data.num_comments}
+              <small style={{background:'yellow', padding: 3, borderRadius: 30}}>Number of comments</small>: {data.num_comments}
               <br/>
-              Date created: {data.created_at}
+              <small style={{background:'yellow', padding: 3, borderRadius: 30}}>Date created</small>: {data.created_at}
             </Card.Body>
           </Accordion.Collapse>
         </Card>
